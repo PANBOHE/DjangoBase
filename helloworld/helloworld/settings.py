@@ -54,7 +54,7 @@ ROOT_URLCONF = 'helloworld.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["D:\\099MyGit\\DjangoBase\\helloworld\\templates"],  #修改位置
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
