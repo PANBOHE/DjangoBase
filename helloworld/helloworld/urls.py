@@ -1,3 +1,10 @@
+'''
+@Description: 
+@Author: Panbo Hey
+@Date: 2023-11-16 15:05:02
+@LastEditTime: 2023-11-24 10:03:03
+@LastEditors: Panbo Hey
+'''
 
 """
 URL configuration for helloworld project.
@@ -28,4 +35,5 @@ urlpatterns = [
     path(r'hello', views.hello),
     path("runnoob/", views.runnoob),
     path("mytest/",views.runmuban),
+    path("panbotest/",views.panbouse),
 ]
